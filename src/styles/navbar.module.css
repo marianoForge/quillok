@@ -1,0 +1,25 @@
+.flex_container_fluid{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0px;
+  align-items: center;
+  margin: 0px auto;
+}
+.flex_container{
+  width: 100%;
+  max-width: 1400px;
+  margin: 0px;
+  padding-left: 7%;
+  padding-top: 2%;
+  background: #F9FF52;
+}
+
+/* MediaQuery MOBILE */
+@media (min-width:0px) and (max-width:600px) {
+
+  .flex_container{
+    padding-top: 12%;
+  }
+
+}

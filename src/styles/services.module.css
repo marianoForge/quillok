@@ -1,0 +1,73 @@
+.flex_container_fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+  }
+  .flex_container{
+    max-width: 1400px;
+    margin: 0px;
+    padding: 7%;
+  }
+    .titleSection{
+    color: #BCBCBC;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    }
+    .subtitleSection{
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 2.5em;
+    line-height: 1.2em;
+    padding-right: 20%;
+    margin: 0.1em 0 1em 0;
+    }
+    .pointServices{
+        width: 30%;
+    }
+    .numberTitle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #F9FF52;
+        background: #1C1C1C;
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    h2{
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: 10px;
+        margin-bottom: 4px;
+    }
+    .pointServices p{
+        opacity: 0.6;
+        margin-top: 8px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.8em;
+    }
+    .containerServices{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    /* MediaQuery TaBLET */
+    @media (min-width:611px) and (max-width:980px) {
+        .pointServices{
+            width: 46%;
+        }
+    }
+    /* MediaQuery MOBILE */
+    @media (min-width:0px) and (max-width:610px) {
+        .pointServices{
+            width: 100%;
+        }
+    }
