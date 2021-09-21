@@ -22,11 +22,12 @@ p {
 nav{
   margin: 60px;
 }
-footer{
+/* footer{
   background: black;
-  margin-top: -10px;
+  margin-top: -16px;
+  height: 100px;
   }
   footer p{
     color: white;
 
-  }
+  } */

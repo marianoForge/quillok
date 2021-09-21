@@ -1,5 +1,6 @@
 import React from "react"
 import Navbar from "./Navbar"
+import Footer from "./Footer"
 import "../styles/global.css"
 
 const Layout = ({ children }) => {
@@ -7,9 +8,7 @@ const Layout = ({ children }) => {
     <div className="layout">
       <Navbar />
       <div className="content">{children}</div>
-      <footer>
-        <p>Copyright Quillok 2021</p>
-      </footer>
+      <Footer />
     </div>
   )
 }

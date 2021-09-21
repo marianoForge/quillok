@@ -1,0 +1,161 @@
+.flex_container_fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+  }
+  .flex_container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    background: #1C1C1C;
+  }
+
+.footer_container{
+  display: flex;
+  justify-content: space-between;
+  margin: 4% 7%;
+  }
+  .footer_logo{
+    width: 25%;
+  }
+  .footer_logo p{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.9em;
+    font-weight: 300;
+  }
+  .footer_contact{
+    color: white;
+    }
+    .contact_title{
+      color: white;
+      font-size: 1em;
+      font-weight: 600;
+    }
+    .contact_mail{
+      color: white;
+      font-size: 0.9em;
+      font-weight: 300;
+      text-decoration: underline 1px;
+      text-underline-offset: 2px;
+      cursor: pointer;
+      margin-bottom: 0.5em;
+    }
+    .contact_address{
+      color: white;
+      font-size: 0.9em;
+      font-weight: 300;
+      margin-top: 0.5em;
+    }
+    .footer_joinUs{
+      color: white;
+      }
+      .joinUs_title{
+        color: white;
+        font-size: 1em;
+        font-weight: 600;
+      }
+      .joinUs_careers{
+        color: white;
+        font-size: 0.9em;
+        font-weight: 300;
+        cursor: pointer;
+        margin-bottom: 0.5em;
+      }
+    .footer_beSocial{
+      color: white;
+      }
+      .beSocial_title{
+        color: white;
+        font-size: 1em;
+        font-weight: 600;
+      }
+      .beSocial_rrss{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1em;
+        width: 70px;
+        }
+    .footer_getBonus{
+      display: flex;
+      justify-content: flex-end;
+      align-self: flex-start;
+      width: 25%;
+      }
+      .btn_getBonus{
+        width: 180px;
+        border: 1px white solid;
+        color: white;
+        padding: 0.8em 1.8em;
+        font-size: 1em;
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-align: center;
+        }
+        .btn_getBonus:hover{
+            background: black;
+            cursor: pointer;
+        }
+
+
+/* MediaQuery tablet */
+@media (min-width:541px) and (max-width:960px) {
+
+  .footer_container{
+    flex-wrap: wrap ;
+    }
+    .footer_logo{
+      margin-bottom: 1.5em;
+      width: 100%;
+    }
+    .footer_contact{
+      width: 45%;
+    }
+    .footer_joinUs{
+      width: 40%;
+    }
+    .footer_beSocial{
+      width: 15%;
+    }
+    .footer_getBonus{
+    justify-content: center;
+    margin-top: 1.5em;
+    width: 100%;
+    }
+    .btn_getBonus{
+      width: 50%;
+    }
+
+}
+
+/* MediaQuery tablet */
+@media (min-width:0px) and (max-width:540px) {
+  .footer_container{
+    flex-wrap: wrap ;
+    }
+    .footer_logo{
+      margin-bottom: 1.5em;
+      width: 100%;
+    }
+    .footer_contact{
+      width: 60%;
+    }
+    .footer_joinUs{
+      width: 40%;
+    }
+    .footer_beSocial{
+      width: 100%;
+      margin-top: 1.5em;
+    }
+    .footer_getBonus{
+      width: 100%;
+      margin: 2.5em 0;
+    }
+    .btn_getBonus{
+      width: 100%;
+    }
+
+}
