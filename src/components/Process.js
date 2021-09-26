@@ -1,23 +1,28 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import * as processStyles from "../styles/process.module.css"
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 const Process = () => {
+
+  AOS.init()
+
   return (
     <div className={processStyles.flex_container_fluid}>
       <div className={processStyles.flex_container}>
 
         <div className={processStyles.container_images}>
-          <div className={processStyles.image_1}>
+          <div className={processStyles.image_1} data-aos="fade-right" data-aos-delay="0" data-aos-duration="1000">
             <StaticImage src="../images/process_img_1.jpg" alt="Demo" />
           </div>
-          <div className={processStyles.image_2}>
+          <div className={processStyles.image_2} data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
             <StaticImage src="../images/process_img_2.jpg" alt="Demo" />
           </div>
-          <div className={processStyles.image_3}>
+          <div className={processStyles.image_3} data-aos="fade-left" data-aos-delay="1000" data-aos-duration="1000">
             <StaticImage src="../images/process_img_3.jpg" alt="Demo" />
           </div>
-          <div className={processStyles.image_4}>
+          <div className={processStyles.image_4} data-aos="fade-up" data-aos-delay="1500" data-aos-duration="1000">
             <StaticImage src="../images/process_img_4.jpg" alt="Demo" />
           </div>
         </div>
@@ -33,26 +38,26 @@ const Process = () => {
           <div className={processStyles.container_weDoItems}>
             <div>
               <div className={processStyles.arrowNumber}>                
-                <div className={processStyles.processArrow}><StaticImage src="../images/process_arrow_white.svg" alt="Demo" /></div>
-                <div className={processStyles.number_123}>1</div>
+                <div className={processStyles.processArrow} data-aos="zoom-in" data-aos-delay="500" data-aos-duration="500"><StaticImage src="../images/process_arrow_white.svg" alt="Demo" /></div>
+                <div className={processStyles.number_123} data-aos="zoom-in" data-aos-delay="0" data-aos-duration="500">1</div>
               </div>
-              <div className={processStyles.item_123}>Roadmapping & Strategy</div>
+              <div className={processStyles.item_123} data-aos="flip-up" data-aos-delay="0" data-aos-duration="1000">Roadmapping & Strategy</div>
               <div className={processStyles.arrowNumber}>                
-                <div className={processStyles.processArrow}><StaticImage src="../images/process_arrow_white.svg" alt="Demo" /></div>
-                <div className={processStyles.number_123}>2</div>
+                <div className={processStyles.processArrow} data-aos="zoom-in" data-aos-delay="500" data-aos-duration="500"><StaticImage src="../images/process_arrow_white.svg" alt="Demo" /></div>
+                <div className={processStyles.number_123} data-aos="zoom-in" data-aos-delay="0" data-aos-duration="500">2</div>
               </div>
-              <div className={processStyles.item_123}>UX/UI Research & Product Design</div>
+              <div className={processStyles.item_123} data-aos="flip-up" data-aos-delay="0" data-aos-duration="1000">UX/UI Research & Product Design</div>
               <div className={processStyles.arrowNumber}>                
-                <div className={processStyles.processArrow}><StaticImage src="../images/process_arrow_yellow.svg" alt="Demo" /></div>
-                <div className={processStyles.number_123}>3</div>
+                <div className={processStyles.processArrow} data-aos="zoom-in" data-aos-delay="500" data-aos-duration="500"><StaticImage src="../images/process_arrow_yellow.svg" alt="Demo" /></div>
+                <div className={processStyles.number_123} data-aos="zoom-in" data-aos-delay="0" data-aos-duration="500">3</div>
               </div>
-              <div className={processStyles.item_123}>Development & QA</div>
-              <div className={processStyles.number_4}>4</div>
-              <div className={processStyles.item_4}>Launch & Grow</div>
+              <div className={processStyles.item_123} data-aos="flip-up" data-aos-delay="0" data-aos-duration="1000">Development & QA</div>
+              <div className={processStyles.number_4} data-aos="zoom-in" data-aos-delay="0" data-aos-duration="500">4</div>
+              <div className={processStyles.item_4} data-aos="flip-up" data-aos-delay="0" data-aos-duration="1000">Launch & Grow</div>
             </div>
           </div>
 
-          <div className={processStyles.frameVideo}>
+          <div className={processStyles.frameVideo} data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
             <div className={processStyles.container_video}>
               <div className={processStyles.video_text}>
                 <p>We see ourselves as product craftsmen, taking a holistic approach to software engineering, where we give code quality, UI & UX design, and product management the same love.</p>

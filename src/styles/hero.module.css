@@ -37,6 +37,10 @@
 /* MediaQuery MOBILE */
 @media (min-width:0px) and (max-width:580px) {
 
+  /* .flex_container{
+    height: 100vh;
+  } */
+
   .flex_container h2{
     font-size: 4em;
     font-weight: 400;

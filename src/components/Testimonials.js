@@ -1,13 +1,18 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import * as testimonialStyles from "../styles/testimonials.module.css"
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 const Testimonials = () => {
+
+  AOS.init()
+
   return (
     <div className={testimonialStyles.flex_container_fluid}>
       <div className={testimonialStyles.flex_container}>
 
-        <div className={testimonialStyles.strokeBox}>
+        <div className={testimonialStyles.strokeBox} data-aos="flip-left" data-aos-delay="0" data-aos-duration="1500">
           <div className={testimonialStyles.testimonialBox}>
 
             <div className={testimonialStyles.boxHeader}>
@@ -30,7 +35,7 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className={testimonialStyles.strokeBox}>
+        <div className={testimonialStyles.strokeBox} data-aos="flip-left" data-aos-delay="300" data-aos-duration="1500">
           <div className={testimonialStyles.testimonialBox}>
 
             <div className={testimonialStyles.boxHeader}>
@@ -61,7 +66,7 @@ const Testimonials = () => {
               </div>
           </div>
 
-          <div className={testimonialStyles.strokeBox}>
+          <div className={testimonialStyles.strokeBox} data-aos="flip-left" data-aos-delay="600" data-aos-duration="1500">
           <div className={testimonialStyles.testimonialBox}>
 
             <div className={testimonialStyles.boxHeader}>
