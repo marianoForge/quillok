@@ -122,17 +122,23 @@
 
     .testimonialTitle{
         width: 380px;
-        height: 300px;
+        height: 270px;
+    }
+    .titleSection{
+        margin: 60px 0 0 80px;
+    }
+    .imgBGtitle{
+        top: -180px;
+        left: 40px;
     }
     .strokeBox{
         order: 1;
         width: 378px;
-    }
-  
+    }  
   }
 
     /* MediaQuery MOBILE */
-@media (min-width:0px) and (max-width:460px) {
+@media (min-width:0px) and (max-width:500px) {
 
     .titleSection{
         margin: 90px 0 0 20px;
@@ -146,15 +152,15 @@
         margin: -50px 0 0 0;
         height: 260px;
     }
-    .imgBGtitle{
-        top: -140px;
-        left: 100px;
-    }
-    .imgBGtitle img{
-        width: 200px;
-    }
     .strokeBox{
         width: 338px;
+    }
+    .imgBGtitle{
+        top: -140px;
+        left: 70px;
+    }
+    .imgBGtitle img{
+        width: 220px;
     }
   
   }
