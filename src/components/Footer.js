@@ -13,7 +13,7 @@ const Footer = () => {
                 <Link to="/">
                     <StaticImage src="../images/logo_footer.svg" alt="Quillok" />
                 </Link>
-                <p>Helping businesses launch fast and grow strong.  </p>
+                <p>Helping businesses launch fast <br></br> and grow strong.  </p>
             </div>
 
             <div className={footerStyles.footer_contact}>
@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
 
             <div className={footerStyles.footer_beSocial}>
-                <div className={footerStyles.beSocial_title}>be Social</div>
+                <div className={footerStyles.beSocial_title}>Be Social</div>
                 <div className={footerStyles.beSocial_rrss}>
                     <div>
                         <StaticImage src="../images/bt_linkedin_footer.svg" alt="LinkedIn" />

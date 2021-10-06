@@ -18,7 +18,7 @@ const Portfolio = () => {
                   <div className={portStyles.menuArrow}>
                     <StaticImage src="../images/work_arrow_menu.svg" />
                   </div>
-                  <div className={portStyles.Shelfset}>ShelfSet</div>
+                  <div className={portStyles.workSelect}>ShelfSet</div>
                 </div>
               </div>
               <div className={portStyles.workUnselect}>FaceFwd</div>
@@ -26,8 +26,7 @@ const Portfolio = () => {
               <div className={portStyles.btMoreProjects}>
                 <div className={portStyles.txtMoreProjects}>SEE MORE PROJECTS</div>
                 <div className={portStyles.arrowMoreProjects}>
-                {/* → */}
-                    <StaticImage src="../images/work_arrow_menu.svg" />
+                    <StaticImage src="../images/work_arrow_MoreProjects.svg" />
                 </div>
               </div>
             </div>

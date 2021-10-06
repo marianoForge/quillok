@@ -16,9 +16,9 @@ const Testimonials = () => {
       <div className={testimonialStyles.flex_container}>
         <div
           className={testimonialStyles.strokeBox}
-          data-aos="flip-left"
-          data-aos-delay="0"
-          data-aos-duration="1500"
+          // data-aos="flip-left"
+          // data-aos-delay="0"
+          // data-aos-duration="1500"
         >
           <div className={testimonialStyles.testimonialBox}>
             <div className={testimonialStyles.boxHeader}>
@@ -42,7 +42,6 @@ const Testimonials = () => {
                 At ShelfSet we were able to leverage them to build a product
                 from concept to product launch in just a few months.
               </p>
-
               <p>
                 They became experts in our product area in the specialized
                 retail industry with machine learning computer vision.
@@ -53,9 +52,9 @@ const Testimonials = () => {
 
         <div
           className={testimonialStyles.strokeBox}
-          data-aos="flip-left"
-          data-aos-delay="300"
-          data-aos-duration="1500"
+          // data-aos="flip-left"
+          // data-aos-delay="300"
+          // data-aos-duration="1500"
         >
           <div className={testimonialStyles.testimonialBox}>
             <div className={testimonialStyles.boxHeader}>
@@ -100,9 +99,9 @@ const Testimonials = () => {
 
         <div
           className={testimonialStyles.strokeBox}
-          data-aos="flip-left"
-          data-aos-delay="600"
-          data-aos-duration="1500"
+          // data-aos="flip-left"
+          // data-aos-delay="600"
+          // data-aos-duration="1500"
         >
           <div className={testimonialStyles.testimonialBox}>
             <div className={testimonialStyles.boxHeader}>

@@ -12,19 +12,24 @@ const Hero = () => {
   }, [])
 
   return (
-    <div className={heroStyles.flex_container_fluid}>
-      <div className={heroStyles.flex_container}>
-        <h2
-          data-aos="fade"
-          data-aos="zoom-in"
-          data-aos-delay="500"
-          data-aos-duration="1500"
-        >
-          We are here to help you <span>launch fast</span> and grow strong.
-        </h2>
-        <div className={heroStyles.keepScrollimage}>
-          <StaticImage src="../images/keepScrolling.svg" alt="Demo" />
+    <div> 
+      <div className={heroStyles.flex_container_fluid}>
+        <div className={heroStyles.flex_container}>
+          <h2
+            // data-aos="fade"
+            // data-aos="zoom-in"
+            // data-aos-delay="500"
+            // data-aos-duration="1500"
+          >
+            We are here to help you <span>launch fast</span> and grow strong lorem ipsum dolor sit.
+          </h2>
+          <div className={heroStyles.keepScrollimage}>
+            <StaticImage src="../images/keepScrolling.svg" alt="keep Scrolling"/>
+          </div>
         </div>
+      </div>
+      <div className={heroStyles.BGdiagonal}>
+        <StaticImage src="../images/Home_diagonal.svg"  width="2020px" alt=""/>
       </div>
     </div>
   )

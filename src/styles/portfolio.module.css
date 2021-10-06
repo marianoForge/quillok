@@ -4,10 +4,10 @@
   align-items: center;
   width: 100%;
   padding: 0px;
-  margin: 100px 0 0 0;
+  margin: 100px 0;
 }
 .flex_container{
-  max-width: 1400px;
+  max-width: 1440px;
   width: 100%;
   margin: 8% 0 0 0;
   padding: 0 7%;
@@ -25,6 +25,7 @@
     font-family: "Inter";
     font-weight: 600;
     font-size: 2.5em;
+    letter-spacing: -1px;
     line-height: 1.2em;
     margin: 0.1em 0 1em 0;
     }
@@ -38,7 +39,7 @@
     .leftContent{
       margin: 0;
       padding: 0;
-      margin-top: 3%;
+      margin-top: 2%;
       }
       .WorksMenu{
         display: flex;
@@ -49,45 +50,55 @@
           }
           .menuArrow{
             position: relative;
-            left: 10%;
+            left: 6%;
             z-index: 10;
-            width: clamp(3em, 6vw, 7em);
+            width: clamp(2em, 6vw, 7em);
             align-self: center;
           }
-          .Shelfset{
+          .workSelect{
             position: relative;
-            left: 30px;
+            left: 34px;
             z-index: 10;
-            font-size: clamp(2em, 4vw, 4em);
+            font-size: clamp(2em, 5vw, 4em);
             font-weight: 400;
+            letter-spacing: -1px;
+          }
+          .workSelect{
+            cursor: pointer;
           }
           .highlight{
             width: 90%;
-            padding: 2% 0;
+            padding: 1% 0;
             position: relative;
             background: #F9FF52;
           }
         .workUnselect{
           z-index: 10;
-          margin-top: 15%;
-          font-size: clamp(2em, 4vw, 4em);
+          margin-top: 14%;
+          font-size: clamp(2em, 5vw, 4em);
           font-weight: 400;
+          letter-spacing: -1px;
           color: #9B9B9B;
+        }
+        .workUnselect:hover{
+          cursor: pointer;
         }
         .btMoreProjects{
           display: flex;
-          margin-top: 12%;
+          margin-top: 14%;
+          }
+          .btMoreProjects:hover{
+            cursor: pointer;
           }
           .txtMoreProjects{
-            font-size: clamp(0.8em, 1vw, 1.1em);
+            font-size: clamp(1em, 2vw, 1.1em);
             letter-spacing: 1px;
             font-weight: 700;
-            text-decoration: underline 1px;
+            text-decoration: underline 2px;
             text-underline-offset: 3px;
             padding: 10px 12px 16px 0;
           }
           .arrowMoreProjects{
-            width: clamp(1.4em, 1.7vw, 3em);
             align-self: center;
           }
 
@@ -115,19 +126,26 @@
         margin-top: -50px;
         }
         .numberDesc{
+          color: #1C1C1C;
           font-size: 2em;
-          font-weight: 600;
+          font-weight: 700;
           padding: 0 14px 0 0;
         }
         .textDesc{
+          color: #1C1C1C;
           font-size: 0.9em;
-          font-weight: 400;
-          line-height: 1.5em;
+          font-weight: 500;
+          line-height: 1.6em;
           padding: 2px 0 0 0;
         }
 
 /* MediaQuery MOBILE */
-@media (min-width:0px) and (max-width:960px) {
+@media (min-width:0px) and (max-width:980px) {
+
+  .flex_container_fluid{
+    margin: 60px 0;
+  }
+
   .WorksContent{
     flex-direction: column;
   }

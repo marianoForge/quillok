@@ -5,14 +5,14 @@
   padding: 0px;
   align-items: center;
   margin: 0px auto;
+  background: #F9FF52;
 }
 .flex_container{
   width: 100%;
-  max-width: 1400px;
+  max-width: 1440px;
   margin: 0px;
   padding-left: 7%;
   padding-top: 2%;
-  background: #F9FF52;
 }
 
 /* MediaQuery MOBILE */

@@ -17,33 +17,33 @@ const Process = () => {
         <div className={processStyles.container_images}>
           <div
             className={processStyles.image_1}
-            data-aos="fade-right"
-            data-aos-delay="0"
-            data-aos-duration="1000"
+            // data-aos="fade-right"
+            // data-aos-delay="0"
+            // data-aos-duration="1000"
           >
             <StaticImage src="../images/process_img_1.jpg" alt="Demo" />
           </div>
           <div
             className={processStyles.image_2}
-            data-aos="fade-down"
-            data-aos-delay="500"
-            data-aos-duration="1000"
+            // data-aos="fade-down"
+            // data-aos-delay="500"
+            // data-aos-duration="1000"
           >
             <StaticImage src="../images/process_img_2.jpg" alt="Demo" />
           </div>
           <div
             className={processStyles.image_3}
-            data-aos="fade-left"
-            data-aos-delay="1000"
-            data-aos-duration="1000"
+            // data-aos="fade-left"
+            // data-aos-delay="1000"
+            // data-aos-duration="1000"
           >
             <StaticImage src="../images/process_img_3.jpg" alt="Demo" />
           </div>
           <div
             className={processStyles.image_4}
-            data-aos="fade-up"
-            data-aos-delay="1500"
-            data-aos-duration="1000"
+            // data-aos="fade-up"
+            // data-aos-delay="1500"
+            // data-aos-duration="1000"
           >
             <StaticImage src="../images/process_img_4.jpg" alt="Demo" />
           </div>
@@ -176,9 +176,9 @@ const Process = () => {
 
           <div
             className={processStyles.frameVideo}
-            data-aos="fade-up"
-            data-aos-delay="0"
-            data-aos-duration="1000"
+            // data-aos="fade-up"
+            // data-aos-delay="0"
+            // data-aos-duration="1000"
           >
             <div className={processStyles.container_video}>
               <div className={processStyles.video_text}>
